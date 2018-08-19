@@ -5,8 +5,8 @@
     <string name="emailaddress">Email address</string>
     <string name="forgotpasslog">Forgot password?</string>
     <string name="btnlog">LOG IN</string>
-    <string name="paschange">Password Changed</string>
-    <string name="newpasssento">Your new password has been sent to your email</string>
+    <string name="paschange">Create new password</string>
+    <string name="newpasssento">Check your email to create new password</string>
     <string name="okalert">OK</string>
     <string name="wlc">Welcome to Fake Home Page</string>
     <string name="unauthorized">Unauthorized</string>
