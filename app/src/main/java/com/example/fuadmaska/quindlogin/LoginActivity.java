@@ -94,13 +94,15 @@ public class LoginActivity extends AppCompatActivity {
         final String email = tielogmail.getText().toString();
         String password = tielogpass.getText().toString();
 
-        if (TextUtils.isEmpty(email)) {
+        if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password)) {
             tielogmail.setError("Email required");
-        } else if (TextUtils.isEmpty(password)) {
+
+
+        } else if (password.isEmpty()) {
             tielogpass.setError("Password required");
+            tielogpass.requestFocus();
 
         } else {
-
             final ProgressDialog progress = new ProgressDialog(LoginActivity.this);
             progress.setMessage("loading");
             progress.setIcon(R.mipmap.ic_launcher);
